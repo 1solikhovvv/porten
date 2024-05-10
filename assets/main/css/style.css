@@ -111,7 +111,7 @@
 
 .home_box:hover{
   background-color: rgba(255, 255, 255, 0.4);
- 
+ cursor: default;
 }
 
 .home_porten{
@@ -133,3 +133,16 @@ font-size: 22px;
   font-family:'PT Sans' ;
   color: #fff;
 }
+
+/* ---------------- Season Section End  ---------------- */
+.watch{
+  background-color: black;
+}
+
+.watch_header{
+  font-family:'Playfair Display' ;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+}
+/* ---------------- Season Section Beggin  ---------------- */
