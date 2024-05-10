@@ -110,10 +110,8 @@
 }
 
 .home_box:hover{
-  background-color: ;
-  color: #2F2F2F;
-  border: 4px solid black;
-  opacity: 5;
+  background-color: rgba(255, 255, 255, 0.4);
+ 
 }
 
 .home_porten{
