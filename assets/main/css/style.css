@@ -137,6 +137,7 @@ font-size: 22px;
 /* ---------------- Season Section End  ---------------- */
 .watch{
   background-color: black;
+  width: 55%;
 }
 
 .watch_header{
@@ -146,3 +147,44 @@ font-size: 22px;
   font-weight: 700;
 }
 /* ---------------- Season Section Beggin  ---------------- */
+
+.line{
+  width: 15%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.watch_back {
+  background: #191B1C;
+
+}
+
+.card_h {
+  font-family: 'Playfair Display' sans-serif, serif ;
+  font-weight:  400;
+  font-size: 18px;
+  color: #fff;
+}
+
+
+.card_price{
+  font-family:'Playfair Display' sans-serif, serif ;
+  font-weight:  700;
+  font-size: 16px;
+  color: #D0D0D0;
+
+}
+
+/* New collection */
+
+.new_collection{
+background-image: url("../imgs/collection.jpg");
+}
+
+.btn_porten{
+  border:  1px solid #fff;
+  padding: 12px 20px;
+  border-radius: 0;
+  color: black;
+  background-color: #FFFFFF;
+}
