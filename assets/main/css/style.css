@@ -95,96 +95,129 @@
 /* ---------------- Home Section Begin  ---------------- */
 .home {
   background-image: url('../imgs/home.jpg');
+  background-size: cover;
   width: 100%;
   height: calc(100vh - 113px);
   background-repeat: no-repeat;
 }
-/* ---------------- Home Section End  ---------------- */
 
-.home_box{
+.home_box {
   border: 4px solid #fff;
   padding: 100px 60px;
   color: #fff;
   transition: 0.5s;
-  
 }
 
-.home_box:hover{
+.home_box:hover {
   background-color: rgba(255, 255, 255, 0.4);
- cursor: default;
+  cursor: default;
 }
 
-.home_porten{
+.home_porten {
   font-family: 'Stick No Bills';
   font-weight: 700;
-  font-size: 64px ;
+  font-size: 64px;
   padding: 0 0 8px 0;
-  border-bottom: #fff;
+  border-bottom: 2px solid #fff;
 }
 
-
-.home_city{
-font-family:'PT Sans';
-font-weight: 400;
-font-size: 22px;
+.home_city {
+  font-family: 'PT Sans'; 
+  font-weight: 400;
+  font-size: 22px; 
 }
 
-.home_p{
-  font-family:'PT Sans' ;
+.home_p {
+  font-family: 'PT Sans'; 
   color: #fff;
 }
+/* ---------------- Home Section End  ---------------- */
 
-/* ---------------- Season Section End  ---------------- */
-.watch{
+
+/* ---------------- Season Section Begin  ---------------- */
+.watch {
   background-color: black;
-  width: 55%;
 }
-
-.watch_header{
-  font-family:'Playfair Display' ;
+.watch_header {
+  font-family: 'Playfair Display';
   color: #fff;
   font-size: 36px;
   font-weight: 700;
 }
-/* ---------------- Season Section Beggin  ---------------- */
 
-.line{
-  width: 15%;
+.line {
   height: 1px;
+  width: 15%;
   background-color: #fff;
 }
 
 .watch_back {
   background: #191B1C;
-
 }
 
 .card_h {
-  font-family: 'Playfair Display' sans-serif, serif ;
-  font-weight:  400;
+  font-family: 'Playfair Display', sans-serif, serif;
+  font-weight: 400;
   font-size: 18px;
   color: #fff;
 }
 
-
-.card_price{
-  font-family:'Playfair Display' sans-serif, serif ;
-  font-weight:  700;
+.card_price {
+  font-family: 'Playfair Display', sans-serif, serif;
+  font-weight: 700;
   font-size: 16px;
   color: #D0D0D0;
-
 }
 
-/* New collection */
 
-.new_collection{
-background-image: url("../imgs/collection.jpg");
+/* New Collectino */
+
+.new_collection {
+  background-image: url("../imgs/collection.jpg");
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.btn_porten{
-  border:  1px solid #fff;
-  padding: 12px 20px;
+.btn_porten {
+  border: 1px solid #fff;
+  padding: 12px 24px;
+  color: #fff;
   border-radius: 0;
-  color: black;
-  background-color: #FFFFFF;
+}
+
+.btn_porten:hover {
+  color: #000;
+  background-color: #fff;
+  border-radius: 0;
+}
+
+/* ---------------- Season Section End  ---------------- */
+
+/* Collection Section Beggin */
+.collect_img{
+  background-image: url("../imgs/colletction_2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.collect_text{
+  font-family:'PT Sans' ;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Collection Section End */
+
+@media screen and (max-width: 992px) {
+  .new_collection {
+    height: 500px;
+  }
+}
+
+.collect_img{
+  height: 500px;
+
 }
