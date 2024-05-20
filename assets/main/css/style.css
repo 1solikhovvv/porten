@@ -226,3 +226,22 @@
     height: 500px;
   }
 }
+
+
+/* ---------------- Footer Section Beggin  ---------------- */
+.footer_img{
+  background-image: url("../imgs/footer.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* ---------------- Footer Section End  ---------------- */
+
+
+.footer_header{
+  font-family:'Playfair Display' ;
+  font-size: 24%;
+  font-weight: 400;
+  color: white;
+}
