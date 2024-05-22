@@ -433,12 +433,12 @@
 
     <!-- #################### Footer Section Begin #################### -->
     <footer>
-      <div class="footer_img">
+      <div class="footer_img py-5">
         <div class="container">
-          <div class="row">
-            <div class="col-4">
+          <div class="row row-gap-3">
+            <div class="col-12 col-lg-4 d-flex flex-column gap-4">
               <h2 class="footer_header">О МАГАЗИНЕ</h2>
-              <p>
+              <p class="collect_text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
                 semper viverra nunc cursus tortor lectus nunc nulla nibh.
                 Egestas amet consectetur vel vitae aliquam dictum suspendisse.
@@ -447,30 +447,45 @@
                 leo. Et ipsum urna fames in sit mi ultrices nisi, nunc.
               </p>
             </div>
-            <div class="col-4">
+
+            <div class="col-12 col-lg-4 d-flex flex-column gap-4">
               <h2 class="footer_header">КАТЕГОРИИ</h2>
-              <a href="#">часы</a>
-              <a href="#">браслеты</a>
-              <a href="#">ремни</a>
-              <a href="#">ювелирные изделия</a>
-              <a href="#">запонки</a>
+              <div class="d-flex flex-wrap gap-4">
+                <a href="#" class="footer_btn">часы</a>
+                <a href="#" class="footer_btn">браслеты</a>
+                <a href="#" class="footer_btn">ремни</a>
+                <a href="#" class="footer_btn">ювелирные изделия</a>
+                <a href="#" class="footer_btn">запонки</a>
+              </div>
             </div>
-            <div class="col-4">
+
+            <div class="col-12 col-lg-4 d-flex flex-column gap-4">
               <h2 class="footer_header">РАССЫЛКА</h2>
               <p class="collect_text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
                 semper viverra nunc cursus tortor lectus nunc nulla nibh.
               </p>
+              <form class="d-flex ">
+                <input type="email" name="email" id="email" placeholder="Ваша почта" class="footer_control form-control">
+                <button type="submit"class="subscribe_btn">ПОДПИСАТЬСЯ</button>
+              </form>
             </div>
-            <form>
-              <input type="email" name="email" id="email" placeholder="Ваша почта">
-              <button type="submit">ПОДПИСАТЬСЯ</button>
-            </form>
+            
           </div>
         </div>
       </div>
+      <div class="footer_bottom">
+        <div class="container d-flex justify-content-between ">
+          <p>© 2020 Все права защищены</p>
+          <a href="#">Сделано Figma.info</a>
+        </div>
+      </div>
+      
     </footer>
     <!-- #################### Footer Section End #################### -->
+
+
+
 
     <script src="assets/vendor/js/bootstrap.bundle.js"></script>
   </body>
