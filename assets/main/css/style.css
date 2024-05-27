@@ -72,6 +72,7 @@
 .header {
   background-color: black;
 }
+
 /* ---------------- Header Section end  ---------------- */
 
 
@@ -210,41 +211,28 @@
 }
 /* ---------------- Collection Section End  ---------------- */
 
-/* Brand Section Begin */
-.brand{
-  background: #0F0F0F;
 
+/* ---------------- Brand Section Begin  ---------------- */
+.brand {
+  background-color: #0f0f0f;
 }
-/* Brand Section End */
+/* ---------------- Brand Section End  ---------------- */
 
 
-@media screen and (max-width: 992px) {
-  .new_collection {
-    height: 500px;
-  }
-  .collect_img {
-    height: 500px;
-  }
-}
-
-
-/* ---------------- Footer Section Beggin  ---------------- */
-.footer_img{
+/* ---------------- Footer Section Begin  ---------------- */
+.footer_img {
   background-image: url("../imgs/footer.jpg");
   background-size: cover;
   background-position: center;
-
 }
-
-.footer_header{
-  font-family:'Playfair Display' ;
+.footer_header {
+  font-family: 'Playfair Display';
   font-size: 24px;
   font-weight: 400;
   color: white;
 }
-
-.footer_btn{
-  font-family:'PT Sans' ;
+.footer_btn {
+  /* font-family: "PT Sans"; */
   font-weight: 400;
   font-size: 14px;
   color: white;
@@ -255,114 +243,103 @@
   transition: 0.4s;
 }
 
-.footer_btn:hover{
+.footer_btn:hover {
   background-color: #1F1F1F;
 }
 
-
-
-.footer_control{
-  background-color:rgb(255, 255, 255, 0.4);
- border-radius: 0;
+.footer_control {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0;
 }
 
-.footer_control::placeholder{
-  color:rgb(192, 192, 192)
+.footer_control::placeholder {
+  color: rgba(192, 192, 192);
 }
-
-.footer_control:focus{
-  background-color:rgb(255, 255, 255, 0.4); 
+.footer_control:focus {
+  background-color: rgba(255, 255, 255, 0.4);
   color: black;
 }
 
-
-.subscribe_btn{
+.subscribe_btn {
   padding: 8px 20px;
   border: none;
   background-color: #0F0F0F;
   color: #fff;
-
+}
+.subscribe_btn:hover {
+  background-color: #1f1f1f;
 }
 
-
-.subscribe_btn:hover{
-  background-color: #1F1F1F;
-}
-
-
-
-
-.copyright{
-  font-family:'PT Sans' ;
-  font-weight: 700;
-  font-size: 12px;
-  color: #D0D0D0;
-}
-
-
-.figma_link{
-  font-family:'PT Sans' ;
+.copyright {
+  font-family: "PT-Sans";
   font-weight: 400;
   font-size: 12px;
   color: #D0D0D0;
 }
 
-.footer_bottom{
+.fig_link {
+  font-family: "PT-Sans";
+  font-weight: 700;
+  font-size: 12px;
+  color: #D0D0D0;
+}
+
+.footer_bottom {
   background-color: #0F0F0F;
 }
-
-
-
-
-@media screen and (max-width: 992px) {
-  .logo{
-    font-size: 28px;
-  }
-  .home {
-    height: 500px;
-  }
-  .home_box{
-    padding: 70px 40px;
-
-  }
-  .home_porten{
-    font-size: 40px
-  }
-  .home_city{
-   font-size: 18px ;
-
-  }
-  .home_p{
-    width: 90% !important;
-  }
-  .collect_text{
-    width: 90% !important;
-  }
-
-  .new_collection{
-    height: 500px;
-  }
-
-  .collect_img {
-    height: 500px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
 
 /* ---------------- Footer Section End  ---------------- */
 
 
 
+@media screen and (max-width: 992px) {
+  .logo {
+    font-size: 28px;
+  }
+  .home {
+    height: 100%;
+  }
+  .home_box {
+    padding: 70px 40px;
+  }
+  .home_porten {
+    font-size: 40px;
+  }
+  .home_city {
+    font-size: 18px;
+  }
 
+  .home_p {
+    width: 90% !important;
+  }
 
+  .collect_text {
+    width: 90% !important;
+  }
 
+  .new_collection {
+    height: 500px;
+  }
+  .collect_img {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrap{
+    display:block !important;
+  }
+  .none1{
+    display: flex !important;
+    justify-content: center;
+  }
+  .header_text1{
+    display: none;
+  }
+  .header_text2{
+    display: flex;
+    justify-content: center;
+  }
+  .watch_header {
+    font-size: 24px;
+  }
+}

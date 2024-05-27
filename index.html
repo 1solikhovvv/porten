@@ -1,40 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/vendor/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/main/css/style.css" />
   </head>
   <body>
     <!-- #################### Header Section Begin #################### -->
     <div class="header">
       <div class="container">
-        <div class="d-flex justify-content-between py-2">
-          <span class="gap-3">
-            <a href="#" class="text-decoration-none">
+        <div class="d-flex justify-content-between py-2 wrap">
+          <span class="gap-3 header_text2">
+            <a href="#" class="text-decoration-none ">
               <img
                 src="assets/main/imgs/tel.svg"
                 alt="tel logo"
                 width="16px"
                 height="16px"
               />
-              <span class="header_text">8 (812) 123-45-67</span>
+              <span class="header_text ">8 (812) 123-45-67</span>
             </a>
+            <span class="header_text header_text1"> | Работаем 7 дней в неделю | </span>
+            <span class="header_text header_text1">9:00 — 18:00</span>
+          </span>
+          <div class="none1 d-none ">
             <span class="header_text"> | Работаем 7 дней в неделю | </span>
             <span class="header_text">9:00 — 18:00</span>
-          </span>
-
+          </div>
           <div>
-            <a href="#" class="text-decoration-none">
+            <a href="#" class="text-decoration-none header_text2">
               <img
                 src="assets/main/imgs/exit.svg"
                 alt="exit logo"
                 width="14px"
                 height="14px"
               />
-              <span class="header_text">Войти / Регистрация</span>
+              <span class="header_text ">Войти / Регистрация</span>
             </a>
           </div>
         </div>
@@ -72,10 +76,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link p-4" href="#">личный кабинет</a>
+              <a class="nav-link p-4" href="#season">личный кабинет</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-4" href="#">настройки</a>
+              <a class="nav-link p-4" href="#settings">настройки</a>
             </li>
             <div class="d-flex gap-md-0 gap-3">
               <li class="nav-item">
@@ -121,7 +125,7 @@
 
     <!-- #################### Season Section Begin #################### -->
 
-    <div class="season">
+    <div class="season" id="season">
       <div class="container-fluid">
         <div class="row">
           <div class="watch py-5 col-12 col-lg-7">
@@ -242,15 +246,15 @@
     <!-- #################### Collection Section End #################### -->
 
     <!-- #################### Products Section Begin #################### -->
-    <div class="product bg-black py-5">
+    <div class="product bg-black pt-0 pt-lg-5">
       <div class="container">
-        <h1 class="watch_header text-center">НОВЫЕ ПОСТУПЛЕНИЯ</h1>
+        <h1 class="watch_header text-center pt-0 pt-lg-5">НОВЫЕ ПОСТУПЛЕНИЯ</h1>
         <div class="d-flex justify-content-center">
           <div class="line my-4"></div>
         </div>
 
         <div class="watch_group">
-          <div class="row py-5 row-gap-3">
+          <div class="row py-2 py-md-5 row-gap-3">
             <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
               <div class="my_card d-flex flex-column row-gap-2">
                 <a href="#">
@@ -382,6 +386,7 @@
         </div>
       </div>
     </div>
+
     <!-- #################### Products Section End #################### -->
 
     <!-- #################### Brand Section Begin #################### -->
@@ -401,6 +406,7 @@
               class="d-flex justify-content-center"
             />
           </div>
+
           <div class="col-12 col-md-6 col-lg-3">
             <img
               src="assets/main/imgs/logo.svg"
@@ -409,6 +415,7 @@
               class="d-flex justify-content-center"
             />
           </div>
+
           <div class="col-12 col-md-6 col-lg-3">
             <img
               src="assets/main/imgs/logo.svg"
@@ -417,6 +424,7 @@
               class="d-flex justify-content-center"
             />
           </div>
+
           <div class="col-12 col-md-6 col-lg-3">
             <img
               src="assets/main/imgs/logo.svg"
@@ -428,11 +436,10 @@
         </div>
       </div>
     </div>
-
     <!-- #################### Brand Section End #################### -->
 
     <!-- #################### Footer Section Begin #################### -->
-    <footer>
+    <footer id="settings">
       <div class="footer_img py-5">
         <div class="container">
           <div class="row row-gap-3">
@@ -447,10 +454,9 @@
                 leo. Et ipsum urna fames in sit mi ultrices nisi, nunc.
               </p>
             </div>
-
             <div class="col-12 col-lg-4 d-flex flex-column gap-4">
               <h2 class="footer_header">КАТЕГОРИИ</h2>
-              <div class="d-flex flex-wrap gap-4">
+              <div class="d-flex flex-wrap gap-3">
                 <a href="#" class="footer_btn">часы</a>
                 <a href="#" class="footer_btn">браслеты</a>
                 <a href="#" class="footer_btn">ремни</a>
@@ -458,35 +464,33 @@
                 <a href="#" class="footer_btn">запонки</a>
               </div>
             </div>
-
             <div class="col-12 col-lg-4 d-flex flex-column gap-4">
               <h2 class="footer_header">РАССЫЛКА</h2>
               <p class="collect_text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi
                 semper viverra nunc cursus tortor lectus nunc nulla nibh.
               </p>
-              <form class="d-flex ">
-                <input type="email" name="email" id="email" placeholder="Ваша почта" class="footer_control form-control">
-                <button type="submit"class="subscribe_btn">ПОДПИСАТЬСЯ</button>
-              </form>
+
+              <div>
+                <form class="d-flex">
+                  <input type="email" id="email" name="email" placeholder="Ваша почта" class="footer_control form-control ">
+                  <button type="submit" class="subscribe_btn">ПОДПИСАТЬСЯ</button>
+                </form>
+              </div>
             </div>
-            
           </div>
         </div>
       </div>
-      <div class="footer_bottom pt-2 ">
+
+      <div class="footer_bottom pt-2">
         <div class="container d-flex justify-content-between">
-          <p class="copyright">© 2020 Все права защищены</p>
-          <a class="figma_link" href="#">Сделано Figma.info</a>
+          <p class="copyright">© 2024 Все права защищены</p>
+          <a href="#" class="fig_link">Сделано Figma.info</a>
         </div>
       </div>
-      
     </footer>
     <!-- #################### Footer Section End #################### -->
 
-
-
-
-    <script src="assets/vendor/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
   </body>
-</html> 
+</html>
